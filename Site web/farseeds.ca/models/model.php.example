@@ -1,0 +1,391 @@
+<?php
+// model.php.example
+// auteur: Gabriel Bourgeois
+// date de création: 4 septembre 2019
+// exemple de modèle pour la structure MVC - toute appel à la base de donnée se fait ici
+
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+class Manager {
+  // getDb
+  // returns the connection needed to access the database
+  public function getDb() {
+    $servername = "example_server.ca";
+		$dbusername = "example_user";
+		$dbpassword = "ExamplePassword123";
+
+		return new PDO("provider:host=$servername;dbname=DB_Example", $dbusername, $dbpassword);
+  }
+
+
+  public function acceptQuest(string $playerName, int $questId) {
+    $database = $this->getDb();
+    $statement = $database->prepare("CALL acceptQuest(:name, :id)");
+
+    $statement->bindParam(":name", $playerName);
+    $statement->bindParam(":id", $questId);
+
+    $ans = $statement->execute();
+
+    $statement->closeCursor();
+    $database = NULL;
+
+    return $ans;
+  }
+
+  public function completeQuest(string $playerName, int $questId) {
+    $database = $this->getDb();
+    $statement = $database->prepare("CALL completeQuest(:name, :id)");
+
+    $statement->bindParam(":name", $playerName);
+    $statement->bindParam(":id", $questId);
+
+    $ans = $statement->execute();
+
+    $statement->closeCursor();
+    $database = NULL;
+
+    return $ans;
+  }
+
+  public function createPlayer(string $playerName, int $userId) {
+    $database = $this->getDb();
+    $statement = $database->prepare("CALL add_player(:name, :id)");
+
+    $statement->bindParam(":name", $playerName);
+    $statement->bindParam(":id", $userId);
+
+    $ans = $statement->execute();
+
+    $statement->closeCursor();
+    $database = NULL;
+
+    return $ans > 0;
+  }
+
+  public function createPost(int $id, string $title, string $content) {
+    $database = $this->getDb();
+    $database->query("SET NAMES utf8");
+    $statement = $database->prepare("CALL add_news(:id, :title, :desc)");
+
+    $statement->bindParam(":id", $id);
+    $statement->bindParam(":title", $title);
+    $statement->bindParam(":desc", $content);
+
+    $ans = $statement->execute();
+
+    $statement->closeCursor();
+    $database = NULL;
+
+    return $ans;
+  }
+
+  public function createUser(string $firstName, string $lastName, int $bDay, int $bMonth,
+                      int $bYear, string $username, string $email, string $password,
+                      string $question, string $answer, string $validationKey) {
+    try {
+      $database = $this->getDb();
+      $statement = $database->prepare("CALL add_member(:user, :pass, :email, :first, :last, :date, :question, :ans, :confirmation)");
+
+      $date = date('Y-m-d G:i:s', mktime(0, 0, 0, $bMonth, $bDay, $bYear));
+      $statement->bindParam(":user", $username);
+      $statement->bindParam(":pass", $password);
+      $statement->bindParam(":email", $email);
+      $statement->bindParam(":first", $firstName);
+      $statement->bindParam(":last", $lastName);
+      $statement->bindParam(":date", $date);
+      $statement->bindParam(":question", $question);
+      $statement->bindParam(":ans", $answer);
+      $statement->bindParam(":confirmation", $validationKey);
+
+      $ans = $statement->execute();
+
+      $statement->closeCursor();
+      $database = NULL;
+
+      //envoyer un email au user://HUGOMOD
+      $headers = "From: addr@example.ca" . "\n" . 'Content-Type: text/plain; charset=utf-8' . "\r\n";
+
+      $subject = "Confirmation de email - Roots of Shadows";
+      $txt = "S.V.P. NE PAS FAIRE \"RÉPONDRE\" À CE COURRIEL" . "\n\n" . "Bonjour " . $username . "!\n" . " Voici le lien de confirmation de votre compte : " .
+      "https://www.farseeds.ca" . "/index.php?action=emailConfirm&pseudo=" . $username . "&confirm=" . $validationKey;
+
+      //?page=login&failed=true
+
+      $txt = wordwrap($txt,70);
+      mail($email,$subject,$txt,$headers);
+
+      return $ans;
+    }
+    catch(Exception $e) {
+      return $e->getMessage();
+    }
+  }
+
+  public function getDialogs() {
+    $database = $this->getDb();
+    $statement = $database->prepare("CALL get_dialogs()");
+
+    $ans = $statement->execute();
+    $rows = $statement->fetchAll(PDO::FETCH_ASSOC);
+
+    $statement->closeCursor();
+    $database = NULL;
+
+    return $rows;
+  }
+
+  public function getEnemies() {
+    $database = $this->getDb();
+    $statement = $database->prepare("CALL get_enemies()");
+
+    $ans = $statement->execute();
+    $rows = $statement->fetchAll(PDO::FETCH_ASSOC);
+
+    $statement->closeCursor();
+    $database = NULL;
+
+    return $rows;
+  }
+
+  public function getLastQuest(string $playerName) {
+    $database = $this->getDb();
+    $statement = $database->prepare("CALL get_lastQuest(:name)");
+
+    $statement->bindParam(":name", $playerName);
+
+    $ans = $statement->execute();
+    $row = $statement->fetchAll(PDO::FETCH_ASSOC);
+
+    $statement->closeCursor();
+    $database = NULL;
+
+    return $row;
+  }
+
+  public function getNews() {
+    $database = $this->getDb();
+    $database->query("SET NAMES utf8");
+    $statement = $database->prepare("CALL get_news");
+
+    $ans = $statement->execute();
+    $rows = $statement->fetchAll(PDO::FETCH_ASSOC);
+
+    $statement->closeCursor();
+    $database = NULL;
+
+    return $rows;
+  }
+
+  public function getPlayer(string $username) {
+    $database = $this->getDb();
+    $statement = $database->prepare("CALL get_player_from_user(:username)");
+
+    $statement->bindParam(":username", $username);
+
+    $ans = $statement->execute();
+    $row = $statement->fetchAll(PDO::FETCH_ASSOC);
+
+    $statement->closeCursor();
+    $database = NULL;
+
+    return $row;
+  }
+
+  public function getUser(string $username) {
+    $database = $this->getDb();
+    $statement = $database->prepare("CALL get_member(:user)");
+
+    $statement->bindParam(":user", $username);
+
+    $ans = $statement->execute();
+    $row = $statement->fetch(PDO::FETCH_ASSOC);
+
+    $statement->closeCursor();
+    $database = NULL;
+
+    return $row;
+  }
+
+  public function getQuests() {
+    $database = $this->getDb();
+    $statement = $database->prepare("CALL get_quests");
+
+    $ans = $statement->execute();
+    $rows = $statement->fetchAll(PDO::FETCH_ASSOC);
+
+    $statement->closeCursor();
+    $database = NULL;
+
+    return $rows;
+  }
+
+  public function getQuestTasks() {
+    $database = $this->getDb();
+    $statement = $database->prepare("CALL get_questTasks");
+
+    $ans = $statement->execute();
+    $rows = $statement->fetchAll(PDO::FETCH_ASSOC);
+
+    $statement->closeCursor();
+    $database = NULL;
+
+    return $rows;
+  }
+
+  public function getTaskProgress(string $playerName) {
+    $database = $this->getDb();
+    $statement = $database->prepare("CALL get_taskProgress(:name)");
+
+    $statement->bindParam(":name", $playerName);
+
+    $ans = $statement->execute();
+    $rows = $statement->fetchAll(PDO::FETCH_ASSOC);
+
+    $statement->closeCursor();
+    $database = NULL;
+
+    return $rows;
+  }
+
+  public function getMemberPlayer(int $id) {
+    $database = $this->getDb();
+    $statement = $database->prepare("CALL get_memberPlayer(:id)");
+
+    $statement->bindParam(":id", $id);
+
+    $ans = $statement->execute();
+    $rows = $statement->fetchAll(PDO::FETCH_ASSOC);
+
+    $statement->closeCursor();
+    $database = NULL;
+
+    return $rows;
+  }
+
+  public function playerExists(string $playerName) {
+    $database = $this->getDb();
+    $statement = $database->prepare("CALL get_player_exists(:name)");
+
+    $statement->bindParam(":name", $playerName);
+
+    $ans = $statement->execute();
+    $row = $statement->fetch(PDO::FETCH_ASSOC);
+
+    $statement->closeCursor();
+    $database = NULL;
+
+    return $row;
+  }
+
+  public function setPlayerCinematic(string $playerName) {
+    $database = $this->getDb();
+    $statement = $database->prepare("CALL set_player_cinematic(:name)");
+
+    $statement->bindParam(":name", $playerName);
+
+    $ans = $statement->execute();
+
+    $statement->closeCursor();
+    $database = NULL;
+
+    return $ans > 0;
+  }
+
+  public function setTaskProgress(string $playerName, int $taskId, int $qty) {
+    $database = $this->getDb();
+    $statement = $database->prepare("CALL set_taskProgress(:name, :task, :qty)");
+
+    $statement->bindParam(":name", $playerName);
+    $statement->bindParam(":task", $taskId);
+    $statement->bindParam(":qty", $qty);
+
+    $ans = $statement->execute();
+
+    $statement->closeCursor();
+    $database = NULL;
+
+    return $ans;
+  }
+
+  public function turnQuest(string $playerName, int $questId) {
+    $database = $this->getDb();
+    $statement = $database->prepare("CALL turnQuest(:name, :id)");
+
+    $statement->bindParam(":name", $playerName);
+    $statement->bindParam(":id", $questId);
+
+    $ans = $statement->execute();
+
+    $statement->closeCursor();
+    $database = NULL;
+
+    return $ans;
+  }
+
+  public function updatePlayer(string $name, float $hp, float $maxHp, float $mp,
+                               float $maxMp, float $str, string $pos, float $money, float $int,
+                               float $agi, float $stealth, float $exp, string $viewed) {
+    $database = $this->getDb();
+    $statement = $database->prepare("CALL update_player(:name, :hp, :maxhp, :mp, :maxmp, :str, :pos, :money, :intel, :agi, :stealth, :exp, :viewed)");
+
+    $viewInt = empty($viewed) ? 0 : 1;
+
+    $statement->bindParam(":name", $name);
+    $statement->bindParam(":hp", $hp);
+    $statement->bindParam(":maxhp", $maxHp);
+    $statement->bindParam(":mp", $mp);
+    $statement->bindParam(":maxmp", $maxMp);
+    $statement->bindParam(":str", $str);
+    $statement->bindParam(":pos", $pos);
+    $statement->bindParam(":money", $money);
+    $statement->bindParam(":intel", $int);
+    $statement->bindParam(":agi", $agi);
+    $statement->bindParam(":stealth", $stealth);
+    $statement->bindParam(":exp", $exp);
+    $statement->bindParam(":viewed", $viewInt);
+
+    $ans = $statement->execute();
+
+    $statement->closeCursor();
+    $database = NULL;
+
+    return $ans > 0;
+  }
+
+  public function updateUser(int $user, string $username, string $email, string $password, string $question, string $answer) {
+    $database = $this->getDb();
+    $statement = $database->prepare("CALL update_member(:id, :username, :email, :pass, :question, :ans)");
+
+    $statement->bindParam(":id", $user);
+    $statement->bindParam(":username", $username);
+    $statement->bindParam(":email", $email);
+    $statement->bindParam(":pass", $password);
+    $statement->bindParam(":question", $question);
+    $statement->bindParam(":ans", $answer);
+
+    $ans = $statement->execute();
+
+    $statement->closeCursor();
+    $database = NULL;
+
+    return $ans;
+  }
+
+  public function validateUser(string $pseudo, string $confirmation){//HUGOMOD
+    $database = $this->getDb();
+    $statement = $database->prepare("CALL validateEmail(:pseudo, :confirmation)");
+
+    $statement->bindParam(":pseudo", $pseudo);
+    $statement->bindParam(":confirmation", $confirmation);
+
+    $ans = $statement->execute();
+
+    $statement->closeCursor();
+    $database = NULL;
+
+    return $ans > 0;
+  }
+}

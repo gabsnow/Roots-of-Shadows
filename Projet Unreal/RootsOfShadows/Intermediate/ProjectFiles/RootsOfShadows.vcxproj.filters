@@ -1,0 +1,1331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\RootsOfShadows.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{7000E669-A28A-4E4E-B4B2-ABB2B0989845}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\RootsOfShadows.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\RootsOfShadowsEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\$resumeData" />
+    <ClCompile Include="..\..\RootsOfShadowsGameState.cpp" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{8503AB8F-8FFF-4244-9B45-BBF1B3D45805}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\RootsOfShadows">
+      <UniqueIdentifier>{83939DB4-4DA9-4907-8D48-180A0FB178F1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\RootsOfShadows\RootsOfShadows.Build.cs">
+      <Filter>Source\RootsOfShadows</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\RootsOfShadows\RootsOfShadows.cpp">
+      <Filter>Source\RootsOfShadows</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RootsOfShadows\RootsOfShadows.h">
+      <Filter>Source\RootsOfShadows</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RootsOfShadows\RootsOfShadowsCharacter.cpp">
+      <Filter>Source\RootsOfShadows</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RootsOfShadows\RootsOfShadowsCharacter.h">
+      <Filter>Source\RootsOfShadows</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RootsOfShadows\RootsOfShadowsGameMode.cpp">
+      <Filter>Source\RootsOfShadows</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RootsOfShadows\RootsOfShadowsGameMode.h">
+      <Filter>Source\RootsOfShadows</Filter>
+    </ClInclude>
+    <Filter Include="Source\RootsOfShadows\Private">
+      <UniqueIdentifier>{200BB864-09C8-4C1F-AD19-B07CF883192A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\RootsOfShadows\Private\AIControllercpp.cpp">
+      <Filter>Source\RootsOfShadows\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RootsOfShadows\Private\AttackBTTaskNode.cpp">
+      <Filter>Source\RootsOfShadows\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RootsOfShadows\Private\CheckEnemyBTService.cpp">
+      <Filter>Source\RootsOfShadows\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RootsOfShadows\Private\CloseEnoughToAttack.cpp">
+      <Filter>Source\RootsOfShadows\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RootsOfShadows\Private\EnemyCharacter.cpp">
+      <Filter>Source\RootsOfShadows\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RootsOfShadows\Private\HealthComponent.cpp">
+      <Filter>Source\RootsOfShadows\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RootsOfShadows\Private\MoveToEnemyBTTaskNode.cpp">
+      <Filter>Source\RootsOfShadows\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RootsOfShadows\Private\NPCCharacter.cpp">
+      <Filter>Source\RootsOfShadows\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RootsOfShadows\Private\ProximityTrigger.cpp">
+      <Filter>Source\RootsOfShadows\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RootsOfShadows\Private\QuestData.cpp">
+      <Filter>Source\RootsOfShadows\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RootsOfShadows\Private\RootsOfShadowsGameState.cpp">
+      <Filter>Source\RootsOfShadows\Private</Filter>
+    </ClCompile>
+    <None Include="..\..\Source\RootsOfShadows\Private\RootsOfShadowsGameState.cpp.example">
+      <Filter>Source\RootsOfShadows\Private</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\RootsOfShadows\Private\SavingRessourcesBTService.cpp">
+      <Filter>Source\RootsOfShadows\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RootsOfShadows\Private\TalkableNPC.cpp">
+      <Filter>Source\RootsOfShadows\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RootsOfShadows\Private\TooFarFromSpawnBTService.cpp">
+      <Filter>Source\RootsOfShadows\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RootsOfShadows\Private\TooFarFromSpawnBTTaskNode.cpp">
+      <Filter>Source\RootsOfShadows\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\RootsOfShadows\Private\dependencies">
+      <UniqueIdentifier>{151D10FF-877D-40D2-9470-5D04AE8B4DE6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\RootsOfShadows\Private\dependencies\mysql">
+      <UniqueIdentifier>{61941231-4AF1-4FB5-8E53-192C18086F4F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\RootsOfShadows\Private\dependencies\mysql\includes">
+      <UniqueIdentifier>{835C7FE8-7D42-4302-8CC1-92DAEB57EF12}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\errmsg.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\mariadb_com.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\mariadb_ctype.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\mariadb_dyncol.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\mariadb_stmt.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\mariadb_version.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\ma_list.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\ma_pvio.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\ma_tls.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\mysql.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\mysqld_error.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\mysql_com.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\mysql_version.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\my_config.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\my_global.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\my_sys.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes</Filter>
+    </ClInclude>
+    <Filter Include="Source\RootsOfShadows\Private\dependencies\mysql\includes\mariadb">
+      <UniqueIdentifier>{B60C3714-0154-493E-8A95-15A07677E7C3}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\mariadb\ma_io.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\mariadb</Filter>
+    </ClInclude>
+    <Filter Include="Source\RootsOfShadows\Private\dependencies\mysql\includes\mysql">
+      <UniqueIdentifier>{2A34D544-396C-4207-BB7E-F9FF76B3D5B5}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\mysql\client_plugin.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\mysql\plugin_auth.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\mysql\plugin_auth_common.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\mysql</Filter>
+    </ClInclude>
+    <Filter Include="Source\RootsOfShadows\Private\dependencies\mysql\includes\server">
+      <UniqueIdentifier>{9D6E78A8-42E0-417E-9853-07DBF2A098C6}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\big_endian.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\byte_order_generic.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\byte_order_generic_x86.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\byte_order_generic_x86_64.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\decimal.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\errmsg.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\handler_ername.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\handler_state.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\json_lib.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\keycache.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\little_endian.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\ma_dyncol.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysqld_ername.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysqld_error.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql_com.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql_com_server.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql_embed.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql_time.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql_version.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\my_alloc.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\my_attribute.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\my_byteorder.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\my_compiler.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\my_config.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\my_dbug.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\my_decimal_limits.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\my_dir.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\my_getopt.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\my_global.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\my_list.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\my_net.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\my_pthread.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\my_sys.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\my_valgrind.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\my_xml.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\m_ctype.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\m_string.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\pack.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\sql_common.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\sql_state.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\sslopt-case.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\sslopt-longopts.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\sslopt-vars.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\typelib.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server</Filter>
+    </ClInclude>
+    <Filter Include="Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql">
+      <UniqueIdentifier>{C70A455E-C283-4332-8BD6-9A9373FA67B3}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\auth_dialog_client.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\client_plugin.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\plugin.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\plugin_audit.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\plugin_auth.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\plugin_auth_common.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\plugin_encryption.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\plugin_ftparser.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\plugin_password_validation.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\services.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\service_base64.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\service_debug_sync.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\service_encryption.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\service_encryption_scheme.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\service_kill_statement.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\service_logger.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\service_md5.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\service_my_crypt.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\service_my_print_error.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\service_my_snprintf.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\service_progress_report.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\service_sha1.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\service_sha2.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\service_thd_alloc.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\service_thd_autoinc.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\service_thd_error_context.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\service_thd_rnd.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\service_thd_specifics.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\service_thd_timezone.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\service_thd_wait.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\service_wsrep.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql</Filter>
+    </ClInclude>
+    <Filter Include="Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\psi">
+      <UniqueIdentifier>{DEC1FC8E-5BE3-4933-92DE-96085E64C4B7}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\psi\mysql_file.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\psi\mysql_idle.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\psi\mysql_socket.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\psi\mysql_stage.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\psi\mysql_statement.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\psi\mysql_table.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\psi\mysql_thread.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\psi\psi.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\psi\psi_abi_v0.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\psi\psi_abi_v1.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\psi\psi_abi_v2.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\psi\psi_base.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\psi\psi_memory.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\mysql\psi</Filter>
+    </ClInclude>
+    <Filter Include="Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private">
+      <UniqueIdentifier>{A656A1EE-85FD-46E9-BD86-7D7181BFAD75}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\authors.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\bounded_queue.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\client_settings.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\compat56.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\config.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\contributors.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\create_options.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\custom_conf.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\datadict.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\debug_sync.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\derror.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\des_key_file.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\discover.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\dur_prop.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\events.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\event_data_objects.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\event_db_repository.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\event_parse_data.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\event_queue.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\event_scheduler.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\field.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\field_comp.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\filesort.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\filesort_utils.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\ft_global.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\gcalc_slicescan.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\gcalc_tools.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\group_by_handler.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\gstream.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\handler.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\hash.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\hash_filo.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\ha_partition.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\ha_sequence.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\heap.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\hostname.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\init.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\innodb_priv.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\item.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\item_cmpfunc.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\item_create.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\item_func.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\item_geofunc.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\item_inetfunc.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\item_jsonfunc.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\item_row.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\item_strfunc.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\item_subselect.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\item_sum.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\item_timefunc.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\item_vers.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\item_windowfunc.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\item_xmlfunc.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\key.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\keycaches.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\lex.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\lex_string.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\lex_symbol.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\lf.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\lock.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\log.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\log_event.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\log_event_old.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\log_slow.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\maria.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\mariadb.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\mdl.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\mem_root_array.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\message.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\multi_range_read.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\myisam.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\myisamchk.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\myisammrg.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\myisampack.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\mysqld.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\mysqld_default_groups.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\mysqld_suffix.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\mysql_async.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\mysys_err.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\my_alarm.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\my_apc.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\my_atomic.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\my_base.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\my_bit.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\my_bitmap.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\my_check_opt.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\my_compare.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\my_context.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\my_cpu.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\my_crypt.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\my_decimal.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\my_default.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\my_handler_errors.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\my_json_writer.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\my_libwrap.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\my_md5.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\my_nosys.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\my_rdtsc.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\my_rnd.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\my_service_manager.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\my_stacktrace.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\my_time.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\my_tree.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\my_uctype.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\my_user.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\nt_servc.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\opt_range.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\opt_subselect.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\parse_file.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\partition_element.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\partition_info.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\password.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\pcre.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\probes_mysql.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\probes_mysql_nodtrace.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\procedure.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\protocol.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\proxy_protocol.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\queues.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\records.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\replication.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\repl_failsafe.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\rijndael.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\rpl_constants.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\rpl_filter.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\rpl_gtid.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\rpl_injector.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\rpl_mi.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\rpl_parallel.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\rpl_record.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\rpl_record_old.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\rpl_reporting.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\rpl_rli.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\rpl_tblmap.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\rpl_utility.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\scheduler.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\semisync.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\semisync_master.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\semisync_master_ack_receiver.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\semisync_slave.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\service_versions.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\session_tracker.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\set_var.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\slave.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\source_revision.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sp.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\spatial.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sp_cache.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sp_head.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sp_pcontext.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sp_rcontext.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_acl.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_admin.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_alloc.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_alter.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_analyse.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_analyze_stmt.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_array.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_audit.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_base.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_basic_types.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_binlog.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_bitmap.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_bootstrap.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_cache.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_callback.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_class.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_cmd.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_connect.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_const.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_crypt.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_cte.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_cursor.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_db.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_delete.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_derived.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_digest.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_digest_stream.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_do.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_error.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_explain.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_expression_cache.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_get_diagnostics.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_handler.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_help.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_hset.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_insert.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_join_cache.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_lex.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_lifo_buffer.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_list.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_load.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_locale.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_manager.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_parse.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_partition.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_partition_admin.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_plist.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_plugin.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_plugin_compat.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_prepare.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_priv.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_profile.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_reload.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_rename.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_repl.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_select.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_sequence.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_servers.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_show.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_signal.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_sort.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_statistics.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_string.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_table.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_tablespace.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_test.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_time.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_trigger.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_truncate.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_tvc.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_type.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_type_int.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_udf.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_union.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_update.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_view.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sql_window.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\ssl_compat.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\strfunc.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\structs.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\sys_vars_shared.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\table.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\table_cache.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\threadpool.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\thread_pool_priv.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\thr_alarm.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\thr_lock.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\thr_malloc.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\thr_timer.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\transaction.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\tzfile.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\tztime.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\t_ctype.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\uniques.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\unireg.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\vers_string.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\vers_utils.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\violite.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\waiting_threads.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\welcome_copyright_notice.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\winservice.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\wqueue.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\wsrep.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\wsrep_applier.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\wsrep_binlog.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\wsrep_mysqld.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\wsrep_priv.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\wsrep_sst.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\wsrep_thd.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\wsrep_utils.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\wsrep_var.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\wsrep_xid.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private</Filter>
+    </ClInclude>
+    <Filter Include="Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\atomic">
+      <UniqueIdentifier>{76542124-BD14-4C4B-A79E-41167C4C2F48}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\atomic\gcc_builtins.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\atomic\gcc_sync.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\atomic\generic-msvc.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\atomic\solaris.h">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\includes\server\private\atomic</Filter>
+    </ClInclude>
+    <Filter Include="Source\RootsOfShadows\Private\dependencies\mysql\lib">
+      <UniqueIdentifier>{763844F2-F42D-4DCB-84EC-741D1EB5E011}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\lib\libmariadb.pdb">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\lib</Filter>
+    </None>
+    <Filter Include="Source\RootsOfShadows\Private\dependencies\mysql\lib\plugin">
+      <UniqueIdentifier>{6A9E4387-26A7-4B18-879D-F452A706C2BC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\lib\plugin\JavaWrappers.jar">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\lib\plugin</Filter>
+    </None>
+    <None Include="..\..\Source\RootsOfShadows\Private\dependencies\mysql\lib\plugin\JdbcInterface.jar">
+      <Filter>Source\RootsOfShadows\Private\dependencies\mysql\lib\plugin</Filter>
+    </None>
+    <Filter Include="Source\RootsOfShadows\Public">
+      <UniqueIdentifier>{6061CD8E-B7E2-4733-91D9-FC2234FF87CC}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Public\AIControllercpp.h">
+      <Filter>Source\RootsOfShadows\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Public\AttackBTTaskNode.h">
+      <Filter>Source\RootsOfShadows\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Public\CheckEnemyBTService.h">
+      <Filter>Source\RootsOfShadows\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Public\CloseEnoughToAttack.h">
+      <Filter>Source\RootsOfShadows\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Public\EnemyCharacter.h">
+      <Filter>Source\RootsOfShadows\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Public\HealthComponent.h">
+      <Filter>Source\RootsOfShadows\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Public\MoveToEnemyBTTaskNode.h">
+      <Filter>Source\RootsOfShadows\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Public\NPCCharacter.h">
+      <Filter>Source\RootsOfShadows\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Public\ProximityTrigger.h">
+      <Filter>Source\RootsOfShadows\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Public\QuestData.h">
+      <Filter>Source\RootsOfShadows\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Public\RootsOfShadowsGameState.h">
+      <Filter>Source\RootsOfShadows\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Public\SavingRessourcesBTService.h">
+      <Filter>Source\RootsOfShadows\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Public\TalkableNPC.h">
+      <Filter>Source\RootsOfShadows\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Public\TooFarFromSpawnBTService.h">
+      <Filter>Source\RootsOfShadows\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RootsOfShadows\Public\TooFarFromSpawnBTTaskNode.h">
+      <Filter>Source\RootsOfShadows\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

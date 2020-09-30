@@ -1,0 +1,101 @@
+.about {
+  max-width: 100%;
+}
+
+.about h1 {
+  border: none;
+  background: none;
+  margin: 15px 0;
+  padding: 0;
+}
+
+.about h2 {
+  margin: 15px 10px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid gold;
+  font-size: 200%;
+}
+
+p {
+  text-align: justify;
+  font-size: 125%;
+  padding: 20px 10px 0 10px;
+}
+
+.about a {
+  color: teal;
+}
+
+.about a:hover {
+  color: gold;
+}
+
+
+.team-box > .flex {
+  min-height: 450px;
+  max-height: 450px;
+  align-items: center;
+  padding: 5px;
+  margin: 10px;
+  flex-grow: 2;
+  flex-shrink: 1;
+  flex-basis: 22%;
+}
+
+.team-box a {
+  color: gold;
+}
+
+.team-box a:hover {
+  text-decoration: underline;
+}
+
+.dev.hugo {
+  margin-left: 5px;
+  background: linear-gradient(to top, rgb(0,0,0), rgb(50,50,50));
+}
+
+.dev.gab {
+  background: linear-gradient(to bottom, rgb(200,150,0), rgb(100,75,0));
+}
+
+.dev.oli {
+  background: linear-gradient(to bottom, rgb(0,200,0), rgb(0,100,0));
+}
+
+.dev.bruno {
+  background: linear-gradient(to bottom, rgb(200,0,0), rgb(100,0,0));
+}
+
+.dev:hover {
+  filter: brightness(105%) drop-shadow(3px 3px 1px black);
+  transition: 0.5s;
+}
+
+.dev {
+  filter: brightness(90%);
+  transition: 0.5s;
+}
+
+.team-box .lbl-title {
+  margin-top: -15px;
+  font-family: "Ring";
+  font-weight: normal;
+}
+
+.team-box .centext {
+  font-style: italic;
+}
+
+div.filterWrapper.team-box {
+  flex-wrap: wrap;
+}
+
+.thanks {
+  color: rgba(255,200,0);
+}
+
+.main-ul {
+  font-size: 18px;
+  text-align: justify;
+}

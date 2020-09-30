@@ -1,0 +1,3 @@
+C:\Users\Gab\Desktop\RootsOfShadows\Source\RootsOfShadows\RootsOfShadows.Build.cs
+C:\Users\Gab\Desktop\RootsOfShadows\Source\RootsOfShadows.Target.cs
+C:\Users\Gab\Desktop\RootsOfShadows\Source\RootsOfShadowsEditor.Target.cs

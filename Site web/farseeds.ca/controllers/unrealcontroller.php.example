@@ -1,0 +1,135 @@
+<?php
+// unrealcontroller.php.example
+// example de controlleur pour les requêtes unreal
+// author: Gabriel Bourgeois
+// creation date: 22/10/2019
+
+$root = realpath($_SERVER["DOCUMENT_ROOT"]);
+require_once("$root/models/model.php");
+
+//Set the headers
+header('Content-Type: application/json');
+
+function acceptQuest(string $pass, string $playerName, int $questId): void {
+  if($pass == "ExamplePassword123") {
+    $manager = new Manager();
+    $manager->acceptQuest($playerName, $questId);
+  }
+}
+
+function completeQuest(string $pass, string $playerName, int $questId): void {
+  if($pass == "ExamplePassword123") {
+    $manager = new Manager();
+    $manager->completeQuest($playerName, $questId);
+  }
+}
+
+function createPlayer(string $playerName, string $username, string $password): void {
+  if($pass == "ExamplePassword123") {
+    $manager = new Manager();
+    $user = $manager->getUser($username);
+
+    if($user)
+      $manager->createPlayer($playerName, $user["id"]);
+  }
+}
+
+function playerExists(string $playerName) {
+  $manager = new Manager();
+  echo(json_encode(array("exists" => $manager->playerExists($playerName)["exists"] > 0)));
+}
+
+function getDialogs(): void {
+  $manager = new Manager();
+  echo(jsonize("dialogs", $manager->getDialogs()));
+}
+
+function getEnemies(): void {
+  $manager = new Manager();
+  echo(jsonize("enemies", $manager->getEnemies()));
+}
+
+function getLastQuest(string $playerName): void {
+  $manager = new Manager();
+  echo(jsonize("lastQuest", $manager->getLastQuest($playerName)));
+}
+
+function getPlayer(string $username) {
+  $manager = new Manager();
+  $player = $manager->getPlayer($username);
+
+  if($player) {
+    echo(jsonize("player", $player));
+  }
+  else {
+    echo("False");
+  }
+}
+
+function getQuests():void {
+  $manager = new Manager();
+  echo(jsonize("quests", $manager->getQuests()));
+}
+
+function getQuestTasks() : void {
+  $manager = new Manager();
+  echo(jsonize("questTasks", $manager->getQuestTasks()));
+}
+
+function getTaskProgress(string $playerName): void {
+  $manager = new Manager();
+  echo(jsonize("taskProgress", $manager->getTaskProgress($playerName)));
+}
+
+function login(string $username, string $password) {
+  $manager = new Manager();
+  $user = $manager->getUser($username);
+  $isValid = false;
+
+  if($user)
+    $isValid = true;
+
+  if($isValid)
+    $isValid = password_verify($password, $user["password"]);
+
+  echo(json_encode(array("valid" => $isValid)));
+}
+
+function setPlayerCinematic($playerName): void {
+  $manager = new Manager();
+  $manager->setPlayerCinematic($playerName);
+}
+
+function setTaskProgress(string $pass, string $playerName, int $taskId, int $qty): void {
+  if($pass == "ExamplePassword123") {
+    $manager = new Manager();
+    $manager->setTaskProgress($playerName, $taskId, $qty);
+  }
+}
+
+function turnQuest(string $pass, string $playerName, int $questId): void {
+  if($pass == "ExamplePassword123") {
+    $manager = new Manager();
+    $manager->turnQuest($playerName, $questId);
+  }
+}
+
+function updatePlayer(string $pass, string $name, float $hp, float $maxHp, float $mp,
+                      float $maxMp, float $str, string $pos, float $money, float $int,
+                      float $agi, float $stealth, float $exp, string $viewed) {
+  if($pass == "ExamplePassword123") {
+    if($viewed === "false" || $viewed === false || $viewed === 0)
+      $viewed = false;
+    else
+      $viewed = true;
+
+    $manager = new Manager();
+    $manager->updatePlayer($name, $hp, $maxHp, $mp, $maxMp, $str, $pos, $money, $int,
+                           $agi, $stealth, $exp, $viewed);
+  }
+}
+
+function jsonize($field, $rows) {
+  $toEncode = array($field => $rows);
+  return json_encode($toEncode);
+}

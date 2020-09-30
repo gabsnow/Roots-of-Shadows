@@ -1,0 +1,164 @@
+<?php
+// controller.php.example
+// auteur: Gabriel Bourgeois
+// date de création: 4 septembre 2019
+// exemple de controlleur pour la structure MVC - permet de dirigier les requêtes
+// à la bonne place
+
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+$root = realpath($_SERVER["DOCUMENT_ROOT"]);
+require_once("$root/models/model.php");
+
+function loadAboutPage() {
+  $root = realpath($_SERVER["DOCUMENT_ROOT"]);
+  require_once("$root/views/about.php");
+}
+
+function loadDownloadPage() {
+  $root = realpath($_SERVER["DOCUMENT_ROOT"]);
+  require_once("$root/views/download.php");
+}
+
+function loadReportPage() {
+  $root = realpath($_SERVER["DOCUMENT_ROOT"]);
+  require_once("$root/views/report.php");
+}
+
+function loadCreditsPage() {
+  $root = realpath($_SERVER["DOCUMENT_ROOT"]);
+  require_once("$root/views/credits.php");
+}
+
+function loadHomePage() {
+  $root = realpath($_SERVER["DOCUMENT_ROOT"]);
+  require_once("$root/views/home.php");
+}
+
+function loadLoginPage($msg = NULL) {
+  $root = realpath($_SERVER["DOCUMENT_ROOT"]);
+  require_once("$root/views/login.php");
+}
+
+function loadLorePage() {
+  $root = realpath($_SERVER["DOCUMENT_ROOT"]);
+  require_once("$root/views/lore.php");
+}
+
+function loadMediaPage() {
+  $root = realpath($_SERVER["DOCUMENT_ROOT"]);
+  require_once("$root/views/media.php");
+}
+
+function loadNewsPage() {
+  $manager = new Manager();
+  $news = $manager->getNews();
+
+  $root = realpath($_SERVER["DOCUMENT_ROOT"]);
+  require_once("$root/views/news.php");
+}
+
+function loadProfilePage(string $username): void {
+  $manager = new Manager();
+  $user = $manager->getUser($username);
+  $player = $manager->getMemberPlayer($user["id"]);
+
+  $root = realpath($_SERVER["DOCUMENT_ROOT"]);
+  require_once("$root/views/profile.php");
+}
+
+function loadSubscribePage() {
+  $root = realpath($_SERVER["DOCUMENT_ROOT"]);
+  require_once("$root/views/subscribe.php");
+}
+
+function createPost(int $id, string $title, string $content): void {
+  $manager = new Manager();
+
+  if($manager->createPost($id, $title, $content)) {
+    header("Location: /news");
+  }
+  else
+    showError("Error", "There was a an error creating the new post. Please try again later or contact a technician if the problem persists.");
+
+}
+
+function createUser(string $firstName, string $lastName, int $bDay, int $bMonth,
+                    int $bYear, string $username, string $email, string $password,
+                    string $question, string $answer): void {
+  $manager = new Manager();
+
+  // Exemple d'encryption de mot de passe et de clé de validation
+  $password = password_hash($password, PASSWORD_DEFAULT);
+  $validationKey = hash('keyhere', 'userUniqueAttributes concatenated');
+
+  if($manager->createUser($firstName, $lastName, $bDay, $bMonth, $bYear, $username,
+                          $email, $password, $question, $answer, $validationKey))
+    header("Location: /login");
+  else
+    showError("Error", "There was an error creating the user. Try again later or contact a technician if the problem persists.");
+}
+
+function login(string $username, string $password) {
+  $manager = new Manager();
+  $user = $manager->getUser($username);
+
+  if(password_verify($password, $user["password"])) {
+    //session_start();//HUGOMOD
+    $_SESSION["username"] = $username;
+    $_SESISON["password"] = $password;
+    $_SESSION["id"] = $user["id"];
+    $_SESSION["admin"] = $user["admin"];
+    $_SESSION["verified"] = $user["verified"];
+
+    if($user["verified"] == 0){
+      session_destroy(); //HUGOMOD
+      header("Location: /index.php?page=login&unconfirmed=true");
+    }
+    else
+      header("Location: /home");
+  }
+  else {
+    header("Location: /index.php?page=login&failed=true");
+  }
+}
+
+function logout() {
+  $root = realpath($_SERVER["DOCUMENT_ROOT"]);
+  require_once("$root/views/logout.php");
+}
+
+function updateUser(int $user, string $username, string $email, string $password, string $question, string $answer) : void {
+  $manager = new Manager();
+  $result = $manager->updateUser($user, $username, $email, $password, $question, $answer);
+
+  if($result) {
+    $_SESSION["username"] = $_POST["username"];
+  }
+  else
+    showError("Error", "There was a problem updating the user. Try again later or contact a technician if the problem persists.");
+}
+
+// showError
+// base function for all errors to show
+function showError($title, $message) {
+  $errorTitle = $title;
+  $errorMessage = $message;
+
+  $root = realpath($_SERVER["DOCUMENT_ROOT"]);
+  require_once("$root/views/error.php");
+}
+
+function confirmEmail(string $pseudo, string $confirmation){//HUGOMOD
+  $manager = new Manager();
+  $result = $manager->validateUser($pseudo, $confirmation);
+
+  if($result){
+    header("Location: /login");
+  }
+  else {
+    showError("Error", "Erreur lors de la validation de l'utilisateur.");
+  }
+}

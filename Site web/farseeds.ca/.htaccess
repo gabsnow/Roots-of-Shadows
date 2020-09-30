@@ -1,0 +1,33 @@
+#Activate rewrite engine
+RewriteEngine on
+
+#Redirect all requests to views to the home page
+RewriteRule ^views/.*$ index.php [NC]
+
+#Redirect home to index
+RewriteRule ^home.*$ index.php [NC]
+
+#Redirect armory
+#RewriteCond %{REQUEST_URI} !^/phpmyadmin [NC]
+#RewriteCond %{REQUEST_FILENAME} !-f [NC]
+#RewriteRule ^(.*)$ index.php?page=$2 [NC]
+
+RewriteRule ^download$ index.php?page=download [NC]
+RewriteRule ^lore$ index.php?page=lore [NC]
+RewriteRule ^media$ index.php?page=media [NC]
+RewriteRule ^news$ index.php?page=news [NC]
+RewriteRule ^login$ index.php?page=login [NC]
+RewriteRule ^logout$ index.php?page=logout [NC]
+RewriteRule ^subscribe$ index.php?page=subscribe [NC]
+RewriteRule ^about$ index.php?page=about [NC]
+RewriteRule ^credits$ index.php?page=credits [NC]
+RewriteRule ^report$ index.php?page=report [NC]
+RewriteRule ^recover-account$ index.php?page=recover-account [NC]
+RewriteRule ^account$ index.php?page=profile [NC]
+#phpmyadmin
+RewriteRule ^phpmyadmin$ index.php/phpMyAdmin [NC]
+
+
+
+
+

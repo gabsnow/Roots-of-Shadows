@@ -1,0 +1,280 @@
+﻿Log file open, 09/28/20 16:04:41
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: RootsOfShadows
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.896008
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Warning: Incompatible or missing module: RootsOfShadows
+Running C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -Project="C:/Users/Gab/Informatics/Projects/Roots-of-Shadows/Projet Unreal/RootsOfShadows/RootsOfShadows.uproject" -TargetType=Editor -Progress -NoHotReloadFromIDE
+Creating makefile for RootsOfShadowsEditor (no existing makefile)
+@progress push 5%
+Parsing headers for RootsOfShadowsEditor
+  Running UnrealHeaderTool "C:\Users\Gab\Informatics\Projects\Roots-of-Shadows\Projet Unreal\RootsOfShadows\RootsOfShadows.uproject" "C:\Users\Gab\Informatics\Projects\Roots-of-Shadows\Projet Unreal\RootsOfShadows\Intermediate\Build\Win64\RootsOfShadowsEditor\Development\RootsOfShadowsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for RootsOfShadowsEditor in 5.3812398 seconds
+@progress pop
+Using Visual Studio 2019 14.27.29110 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Building 39 actions with 12 processes...
+  @progress 'Compiling C++ source code...' 0%
+  @progress 'Compiling C++ source code...' 3%
+  [1/39] Default.rc2
+  @progress 'Compiling C++ source code...' 5%
+  [2/39] SharedPCH.Engine.cpp
+  @progress 'Compiling C++ source code...' 8%
+  [3/39] RootsOfShadows.cpp
+  @progress 'Compiling C++ source code...' 10%
+  [4/39] ProximityTrigger.cpp
+  @progress 'Compiling C++ source code...' 13%
+  [5/39] TalkableNPC.cpp
+  @progress 'Compiling C++ source code...' 15%
+  [6/39] NPCCharacter.cpp
+  @progress 'Compiling C++ source code...' 18%
+  [7/39] HealthComponent.cpp
+  @progress 'Compiling C++ source code...' 21%
+  [8/39] RootsOfShadowsGameMode.cpp
+  @progress 'Compiling C++ source code...' 23%
+  [9/39] MoveToEnemyBTTaskNode.cpp
+  @progress 'Compiling C++ source code...' 26%
+  [10/39] TooFarFromSpawnBTService.cpp
+  @progress 'Compiling C++ source code...' 28%
+  [11/39] CloseEnoughToAttack.cpp
+  @progress 'Compiling C++ source code...' 31%
+  [12/39] SavingRessourcesBTService.cpp
+  @progress 'Compiling C++ source code...' 33%
+  [13/39] TooFarFromSpawnBTTaskNode.cpp
+  @progress 'Compiling C++ source code...' 36%
+  [14/39] QuestData.cpp
+  @progress 'Compiling C++ source code...' 38%
+  [15/39] AIControllercpp.gen.cpp
+  @progress 'Compiling C++ source code...' 41%
+  [16/39] CloseEnoughToAttack.gen.cpp
+  @progress 'Compiling C++ source code...' 44%
+  [17/39] HealthComponent.gen.cpp
+  @progress 'Compiling C++ source code...' 46%
+  [18/39] ProximityTrigger.gen.cpp
+  @progress 'Compiling C++ source code...' 49%
+  [19/39] EnemyCharacter.gen.cpp
+  @progress 'Compiling C++ source code...' 51%
+  [20/39] EnemyCharacter.cpp
+  C:\Users\Gab\Informatics\Projects\Roots-of-Shadows\Projet Unreal\RootsOfShadows\Source\RootsOfShadows\Private\EnemyCharacter.cpp(47): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  @progress 'Compiling C++ source code...' 54%
+  [21/39] AttackBTTaskNode.cpp
+  @progress 'Compiling C++ source code...' 56%
+  [22/39] RootsOfShadows.init.gen.cpp
+  @progress 'Compiling C++ source code...' 59%
+  [23/39] NPCCharacter.gen.cpp
+  @progress 'Compiling C++ source code...' 62%
+  [24/39] MoveToEnemyBTTaskNode.gen.cpp
+  @progress 'Compiling C++ source code...' 64%
+  [25/39] RootsOfShadowsCharacter.cpp
+  C:\Users\Gab\Informatics\Projects\Roots-of-Shadows\Projet Unreal\RootsOfShadows\Source\RootsOfShadows\RootsOfShadowsCharacter.cpp(117): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\Users\Gab\Informatics\Projects\Roots-of-Shadows\Projet Unreal\RootsOfShadows\Source\RootsOfShadows\RootsOfShadowsCharacter.cpp(729) : warning C4701: potentially uninitialized local variable 'range' used
+  @progress 'Compiling C++ source code...' 67%
+  [26/39] AIControllercpp.cpp
+  C:\Users\Gab\Informatics\Projects\Roots-of-Shadows\Projet Unreal\RootsOfShadows\Source\RootsOfShadows\Private\AIControllercpp.cpp(28): warning C4458: declaration of 'Pawn' hides class member
+  C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Controller.h(66): note: see declaration of 'AController::Pawn'
+  C:\Users\Gab\Informatics\Projects\Roots-of-Shadows\Projet Unreal\RootsOfShadows\Source\RootsOfShadows\Private\AIControllercpp.cpp(58): warning C4458: declaration of 'Character' hides class member
+  C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Controller.h(76): note: see declaration of 'AController::Character'
+  @progress 'Compiling C++ source code...' 69%
+  [27/39] AttackBTTaskNode.gen.cpp
+  @progress 'Compiling C++ source code...' 72%
+  [28/39] TalkableNPC.gen.cpp
+  @progress 'Compiling C++ source code...' 74%
+  [29/39] RootsOfShadowsGameMode.gen.cpp
+  @progress 'Compiling C++ source code...' 77%
+  [30/39] RootsOfShadowsGameState.gen.cpp
+  @progress 'Compiling C++ source code...' 79%
+  [31/39] CheckEnemyBTService.gen.cpp
+  @progress 'Compiling C++ source code...' 82%
+  [32/39] SavingRessourcesBTService.gen.cpp
+  @progress 'Compiling C++ source code...' 85%
+  [33/39] RootsOfShadowsCharacter.gen.cpp
+  @progress 'Compiling C++ source code...' 87%
+  [34/39] TooFarFromSpawnBTService.gen.cpp
+  @progress 'Compiling C++ source code...' 90%
+  [35/39] TooFarFromSpawnBTTaskNode.gen.cpp
+  @progress 'Compiling C++ source code...' 92%
+  [36/39] CheckEnemyBTService.cpp
+  @progress 'Compiling C++ source code...' 95%
+  [37/39] UE4Editor-RootsOfShadows.lib
+     Creating library C:\Users\Gab\Informatics\Projects\Roots-of-Shadows\Projet Unreal\RootsOfShadows\Intermediate\Build\Win64\UE4Editor\Development\RootsOfShadows\UE4Editor-RootsOfShadows.lib and object C:\Users\Gab\Informatics\Projects\Roots-of-Shadows\Projet Unreal\RootsOfShadows\Intermediate\Build\Win64\UE4Editor\Development\RootsOfShadows\UE4Editor-RootsOfShadows.exp
+  @progress 'Compiling C++ source code...' 97%
+  [38/39] UE4Editor-RootsOfShadows.dll
+     Creating library C:\Users\Gab\Informatics\Projects\Roots-of-Shadows\Projet Unreal\RootsOfShadows\Intermediate\Build\Win64\UE4Editor\Development\RootsOfShadows\UE4Editor-RootsOfShadows.suppressed.lib and object C:\Users\Gab\Informatics\Projects\Roots-of-Shadows\Projet Unreal\RootsOfShadows\Intermediate\Build\Win64\UE4Editor\Development\RootsOfShadows\UE4Editor-RootsOfShadows.suppressed.exp
+  RootsOfShadowsGameState.gen.cpp.obj : error LNK2001: unresolved external symbol "public: __cdecl URootsOfShadowsGameState::URootsOfShadowsGameState(void)" (??0URootsOfShadowsGameState@@QEAA@XZ)
+  EnemyCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: __cdecl URootsOfShadowsGameState::URootsOfShadowsGameState(void)" (??0URootsOfShadowsGameState@@QEAA@XZ)
+  HealthComponent.cpp.obj : error LNK2001: unresolved external symbol "public: __cdecl URootsOfShadowsGameState::URootsOfShadowsGameState(void)" (??0URootsOfShadowsGameState@@QEAA@XZ)
+  NPCCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: __cdecl URootsOfShadowsGameState::URootsOfShadowsGameState(void)" (??0URootsOfShadowsGameState@@QEAA@XZ)
+  RootsOfShadowsCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: __cdecl URootsOfShadowsGameState::URootsOfShadowsGameState(void)" (??0URootsOfShadowsGameState@@QEAA@XZ)
+  RootsOfShadowsGameState.gen.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::CreatePlayer(class FString,class FString)" (?CreatePlayer@URootsOfShadowsGameState@@QEAAXVFString@@0@Z)
+  EnemyCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::CreatePlayer(class FString,class FString)" (?CreatePlayer@URootsOfShadowsGameState@@QEAAXVFString@@0@Z)
+  HealthComponent.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::CreatePlayer(class FString,class FString)" (?CreatePlayer@URootsOfShadowsGameState@@QEAAXVFString@@0@Z)
+  NPCCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::CreatePlayer(class FString,class FString)" (?CreatePlayer@URootsOfShadowsGameState@@QEAAXVFString@@0@Z)
+  RootsOfShadowsCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::CreatePlayer(class FString,class FString)" (?CreatePlayer@URootsOfShadowsGameState@@QEAAXVFString@@0@Z)
+  RootsOfShadowsGameState.gen.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::GetPlayer(class FString)" (?GetPlayer@URootsOfShadowsGameState@@QEAAXVFString@@@Z)
+  EnemyCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::GetPlayer(class FString)" (?GetPlayer@URootsOfShadowsGameState@@QEAAXVFString@@@Z)
+  HealthComponent.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::GetPlayer(class FString)" (?GetPlayer@URootsOfShadowsGameState@@QEAAXVFString@@@Z)
+  NPCCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::GetPlayer(class FString)" (?GetPlayer@URootsOfShadowsGameState@@QEAAXVFString@@@Z)
+  RootsOfShadowsCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::GetPlayer(class FString)" (?GetPlayer@URootsOfShadowsGameState@@QEAAXVFString@@@Z)
+  RootsOfShadowsGameState.gen.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::Login(class FString,class FString)" (?Login@URootsOfShadowsGameState@@QEAAXVFString@@0@Z)
+  EnemyCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::Login(class FString,class FString)" (?Login@URootsOfShadowsGameState@@QEAAXVFString@@0@Z)
+  HealthComponent.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::Login(class FString,class FString)" (?Login@URootsOfShadowsGameState@@QEAAXVFString@@0@Z)
+  NPCCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::Login(class FString,class FString)" (?Login@URootsOfShadowsGameState@@QEAAXVFString@@0@Z)
+  RootsOfShadowsCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::Login(class FString,class FString)" (?Login@URootsOfShadowsGameState@@QEAAXVFString@@0@Z)
+  RootsOfShadowsGameState.gen.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::PlayerExists(class FString)" (?PlayerExists@URootsOfShadowsGameState@@QEAAXVFString@@@Z)
+  EnemyCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::PlayerExists(class FString)" (?PlayerExists@URootsOfShadowsGameState@@QEAAXVFString@@@Z)
+  HealthComponent.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::PlayerExists(class FString)" (?PlayerExists@URootsOfShadowsGameState@@QEAAXVFString@@@Z)
+  NPCCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::PlayerExists(class FString)" (?PlayerExists@URootsOfShadowsGameState@@QEAAXVFString@@@Z)
+  RootsOfShadowsCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::PlayerExists(class FString)" (?PlayerExists@URootsOfShadowsGameState@@QEAAXVFString@@@Z)
+  RootsOfShadowsGameState.gen.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::UpdatePlayer(void)" (?UpdatePlayer@URootsOfShadowsGameState@@QEAAXXZ)
+  EnemyCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::UpdatePlayer(void)" (?UpdatePlayer@URootsOfShadowsGameState@@QEAAXXZ)
+  HealthComponent.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::UpdatePlayer(void)" (?UpdatePlayer@URootsOfShadowsGameState@@QEAAXXZ)
+  NPCCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::UpdatePlayer(void)" (?UpdatePlayer@URootsOfShadowsGameState@@QEAAXXZ)
+  RootsOfShadowsCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::UpdatePlayer(void)" (?UpdatePlayer@URootsOfShadowsGameState@@QEAAXXZ)
+  RootsOfShadowsGameState.gen.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::AcceptQuest(int)" (?AcceptQuest@URootsOfShadowsGameState@@QEAAXH@Z)
+  EnemyCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::AcceptQuest(int)" (?AcceptQuest@URootsOfShadowsGameState@@QEAAXH@Z)
+  HealthComponent.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::AcceptQuest(int)" (?AcceptQuest@URootsOfShadowsGameState@@QEAAXH@Z)
+  NPCCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::AcceptQuest(int)" (?AcceptQuest@URootsOfShadowsGameState@@QEAAXH@Z)
+  RootsOfShadowsCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::AcceptQuest(int)" (?AcceptQuest@URootsOfShadowsGameState@@QEAAXH@Z)
+  RootsOfShadowsGameState.gen.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::CompleteQuest(int)" (?CompleteQuest@URootsOfShadowsGameState@@QEAAXH@Z)
+  EnemyCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::CompleteQuest(int)" (?CompleteQuest@URootsOfShadowsGameState@@QEAAXH@Z)
+  HealthComponent.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::CompleteQuest(int)" (?CompleteQuest@URootsOfShadowsGameState@@QEAAXH@Z)
+  NPCCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::CompleteQuest(int)" (?CompleteQuest@URootsOfShadowsGameState@@QEAAXH@Z)
+  RootsOfShadowsCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::CompleteQuest(int)" (?CompleteQuest@URootsOfShadowsGameState@@QEAAXH@Z)
+  RootsOfShadowsGameState.gen.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::SetCurrentQuest(void)" (?SetCurrentQuest@URootsOfShadowsGameState@@QEAAXXZ)
+  EnemyCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::SetCurrentQuest(void)" (?SetCurrentQuest@URootsOfShadowsGameState@@QEAAXXZ)
+  HealthComponent.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::SetCurrentQuest(void)" (?SetCurrentQuest@URootsOfShadowsGameState@@QEAAXXZ)
+  NPCCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::SetCurrentQuest(void)" (?SetCurrentQuest@URootsOfShadowsGameState@@QEAAXXZ)
+  RootsOfShadowsCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::SetCurrentQuest(void)" (?SetCurrentQuest@URootsOfShadowsGameState@@QEAAXXZ)
+  RootsOfShadowsGameState.gen.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::SetQuestProgress(int,int)" (?SetQuestProgress@URootsOfShadowsGameState@@QEAAXHH@Z)
+  EnemyCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::SetQuestProgress(int,int)" (?SetQuestProgress@URootsOfShadowsGameState@@QEAAXHH@Z)
+  HealthComponent.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::SetQuestProgress(int,int)" (?SetQuestProgress@URootsOfShadowsGameState@@QEAAXHH@Z)
+  NPCCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::SetQuestProgress(int,int)" (?SetQuestProgress@URootsOfShadowsGameState@@QEAAXHH@Z)
+  RootsOfShadowsCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::SetQuestProgress(int,int)" (?SetQuestProgress@URootsOfShadowsGameState@@QEAAXHH@Z)
+  RootsOfShadowsGameState.gen.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::TurnQuest(int)" (?TurnQuest@URootsOfShadowsGameState@@QEAAXH@Z)
+  EnemyCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::TurnQuest(int)" (?TurnQuest@URootsOfShadowsGameState@@QEAAXH@Z)
+  HealthComponent.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::TurnQuest(int)" (?TurnQuest@URootsOfShadowsGameState@@QEAAXH@Z)
+  NPCCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::TurnQuest(int)" (?TurnQuest@URootsOfShadowsGameState@@QEAAXH@Z)
+  RootsOfShadowsCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::TurnQuest(int)" (?TurnQuest@URootsOfShadowsGameState@@QEAAXH@Z)
+  RootsOfShadowsGameState.gen.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::LoadCurrentQuest(void)" (?LoadCurrentQuest@URootsOfShadowsGameState@@QEAAXXZ)
+  EnemyCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::LoadCurrentQuest(void)" (?LoadCurrentQuest@URootsOfShadowsGameState@@QEAAXXZ)
+  HealthComponent.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::LoadCurrentQuest(void)" (?LoadCurrentQuest@URootsOfShadowsGameState@@QEAAXXZ)
+  NPCCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::LoadCurrentQuest(void)" (?LoadCurrentQuest@URootsOfShadowsGameState@@QEAAXXZ)
+  RootsOfShadowsCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl URootsOfShadowsGameState::LoadCurrentQuest(void)" (?LoadCurrentQuest@URootsOfShadowsGameState@@QEAAXXZ)
+  C:\Users\Gab\Informatics\Projects\Roots-of-Shadows\Projet Unreal\RootsOfShadows\Binaries\Win64\UE4Editor-RootsOfShadows.dll : fatal error LNK1120: 12 unresolved externals
+LogInit: Warning: Still incompatible or missing module: RootsOfShadows
+LogExit: Preparing to exit.
+LogModuleManager: Shutting down and abandoning module DesktopPlatform (40)
+LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+LogModuleManager: Shutting down and abandoning module RenderCore (30)
+LogModuleManager: Shutting down and abandoning module Landscape (28)
+LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+LogModuleManager: Shutting down and abandoning module Renderer (18)
+LogModuleManager: Shutting down and abandoning module Engine (16)
+LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+LogModuleManager: Shutting down and abandoning module PakFile (4)
+LogModuleManager: Shutting down and abandoning module RSA (3)
+LogExit: Exiting.
+Log file closed, 09/28/20 16:05:20
