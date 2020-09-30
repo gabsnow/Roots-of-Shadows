@@ -48,7 +48,7 @@ Le jeu se déroule sur une île qui, à l’heure actuelle, est le seul endroit 
 - Rédiger la documentation;
 - Organiser la présentation du projet;
 
-### Contributeur
+### Contributeurs
 - Gabriel Bourgeois
 - Bruno Gauthier
 - Olivier Guy
