@@ -3,6 +3,8 @@
 
 420-KA6-LG: Gestion de projets & 420-KEN-LG: Projet en informatique de gestion
 
+**Site: https://www.farseeds.ca**
+
 ## Projet d'intégration
 Roots of Shadows est un jeu de rôle de style médiéval développé dans le cadre du cours de projet en informatique de gestion au Collège Lionel-Groulx et supervisé par Vincent Echelard.
 
